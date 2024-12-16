@@ -1,0 +1,180 @@
+.topheader {
+    background-image: url("img/header.png");
+}
+body {
+    margin: 0; 
+    background-image:url(img/bg.jpg); 
+    background-repeat:repeat-y; 
+    background-size:100%
+}
+.header {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 100;
+    color: #088EC1;
+    font-variant-ligatures: normal;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 220px;
+}
+.headersmall {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 350;
+    color: #22436C;
+    font-variant-ligatures: normal;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.normaltext {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 300;
+    color: #000000;
+    font-variant-ligatures: normal;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.smalltext {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    font-variant-ligatures: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 11px;
+    padding-top: 2px;
+}
+.downloadtext {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.topnav {
+    display: inline-block;
+    overflow: visible;
+    background-color: #ffffff00;
+    padding-top: 0px;
+    position: relative;
+    top: -2px;
+    left: 3px;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(0, 146, 211);
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 300;
+}
+
+.topnav img {
+    width: 60px;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+    color: rgb(0, 146, 211);
+}
+
+.topnav a.active {
+    color: rgb(0, 0, 0);
+}
+
+.navimg {
+    background-image:url(img/win7button.png)
+}
+
+.navimg:hover {
+    background-image:url(img/win7active.png)
+}
+
+.navimgactive {
+    background-image:url(img/win7active.png)
+}
+
+.headerimg {
+    position: relative;
+}
+
+#backgr {
+    width: 100%;
+}
+
+#navtab {
+    width: 100%;
+    height: 39px; 
+    border: 0; 
+    background-image:url(img/win7taskbar.png); 
+    background-repeat: repeat-x; 
+    margin-bottom: 0px; 
+    position: absolute; 
+    top: 80px; 
+    text-align: center;
+}
+
+#navtab td {
+    padding-left: 10px;
+}
+
+#maintab {
+    width: 1000px; 
+    border: 0; 
+    background-color:rgb(255, 255, 255); 
+    padding-left: 60px; 
+    padding-right: 60px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    border-radius: 0 0 30px 30px; 
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+#maintab td {
+    text-align: center;
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+#maintab td img {
+    width: 200px;
+}
+
+.mainbutton {
+    width: 300px;
+    position: relative; 
+    text-align: center; 
+}
+
+#dtext {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.bottompanel {
+    width: 100%;
+    height: 41px; 
+    border: 0; 
+    background-image:url(img/win7taskbar2.png); 
+    background-repeat: repeat-x; 
+    margin-bottom: -80px; 
+    position: relative; 
+    text-align: center;
+}
